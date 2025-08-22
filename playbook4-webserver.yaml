@@ -9,7 +9,7 @@
      
   - name: Creating a webpage
     copy:
-      src: index.html
+      content: " hello, from shruti "
       dest: /var/www/html/index.html
     tags:
     - webpage
